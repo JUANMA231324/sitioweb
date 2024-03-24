@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MI CV</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Octavio Huepa Negrete </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#amigos" onclick="seleccionar()">AMIGOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Octa.jpg" alt="">
+            </div>
+            <h1>OCTAVIO HUEPA</h1>
+            <h2>Ingeniero en TICs </h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Octavio Huepa.</span> Estudiante de ingenieria en el INSTITUTO TECNOLOGICO DE PUEBLA, oy una persona activa, me gustan 
+                los desafíos y siempre entrego lo mejor 
+                de mi para realizarlos de la mejor 
+                manera posible; los valores que me 
+                caracterizan es ser responsable y 
+                honesto. Me gusta trabajar en equipo 
+                y aprendo rápido las tareas a realizar.
+                Soy una persona que hace 
+                autocritica para seguir mejorando.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-1980
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +52 2214390039
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            tavoohuepaa@gmail.com <tavoohuepaa@gmail.com>;
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle 18 sur 710 Col. Azcarate 
+C.P 72501
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                    
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fab fa-swimmer"></i>
+                            <span>NADAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                       
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <!-- Habilidades profecionales -->
+                <div class="col">
+                    <h3>Habilidades profecionales </h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Jardin de niños-Preparatoria</h4>
+                        <span class="casa">CENTRO ESCOLAR NIÑOS HEROES DE CHAPULTEPEC</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Centro Escolar Niños Héroes de Chapultepec
+                            Ingresé desde el kínder y concluí hasta la educación media superior 
+                            en este instituto, seleccionado a participar en eventos nacionales del 
+                            deporte, voz de mando en la escolta superior de la institución</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">INSTITUTO TECNOLOGICO DE PUEBLA</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Estoy cursando el sexto semestre de Ing. en tecnologías de la 
+                            información y comunicaciones en este instituto, formo parte de la 
+                            selección de futbol.
+                            </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>SIC-TEC (Encargado)
+                        </h4>
+                        <span class="casa">SIC-TEC 
+                        </span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Trabajé en este negocio de giro computacional de los 15 a los 18 años 
+                            y estuve de encargado por medio tiempo. Entregando siempre 
+                            buenos resultados</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Encargado</h4>
+                        <span class="casa">PROLIMPIEZA TOTAL</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Encargado de este negocio durante la pandemia, el negocio cerró
+                            debido a la alta competencia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Capitan de meseros</h4>
+                        <span class="casa">MESTIZZA</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Actual trabajo de fines de semana(sábado y domingo), llevo un año 
+                            en el puesto y estoy al mando de los meseros del restaurante, 
+                            entregando siempre buenos resultados y una excelente atención al 
+                            cliente</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION AMIGOS -->
+    <section id="amigos" class="amigos">
+        <div class="contenido-seccion">
+            <h2>AMIGOS & FAMILIA </h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="octaa.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>AMIGOS</h3>
+                        <p>FAMILIA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="octaa3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>AMIGOS</h3>
+                        <p>FAMILIA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="octa4.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>AMIGOS</h3>
+                        <p>FAMILIA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="octa5.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>AMIGOS</h3>
+                        <p>FAMILIA</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="octa6.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>AMIGIOS</h3>
+                        <p>FAMILIA</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Calle 18 sur 710 Col. Azcarate 
+C.P 72501
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame:221-439 0037
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tavoohuepaa@gmail.com <tavoohuepaa@gmail.com>;
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
